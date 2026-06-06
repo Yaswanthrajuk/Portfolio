@@ -32,6 +32,7 @@ document.querySelectorAll(".agent-action, .site-nav a, .project-card, .skill-car
 
 const revealTargets = document.querySelectorAll(
   ".section-heading, .intro-grid, .skill-card, .project-card, .timeline-item, .credentials-section, .contact-inner, .terminal-card"
+  + ", .vision-inner, .vision-grid article, .goal-panel"
 );
 
 revealTargets.forEach((target) => target.classList.add("reveal"));
